@@ -41,12 +41,21 @@
 /* my app */
 
 .btn-wrapper button {
+  background-color: green;
+  border: 0px;
+  padding: 10px;
+  border-radius: 4px;
+  color: #fff;
+  box-shadow: #333 0px 1px 5px;
+}
+.btn-wrapper .rmv-btn{
   background-color: red;
   border: 0px;
   padding: 10px;
   border-radius: 4px;
   color: #fff;
   box-shadow: #333 0px 1px 5px;
+  margin-top: 5px;
 }
 .img-wrapper img {
   width: 50px;
@@ -71,17 +80,19 @@
     right: 1%;
     top: 1%;
 }
+
+
 .cart-count{
-  
-    position: absolute;
-    right: 10px;
-    top: 12px;
-    z-index: 1;
-    background-color: red;
-    padding: 7px;
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
-    color: #fff;
+  position: absolute;
+  right: 32px;
+  top: 8px;
+  z-index: 1;
+  background-color: pink;
+  width: 25px;
+  height: 24px;
+  align-items: center;
+  padding: 3px;
+  border-radius: 50px;
+  border:palevioletred 2px solid;
 }
 /*  */
